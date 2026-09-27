@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-telugu-reply-agent",
+  "version": "1.0.0",
+  "description": "WhatsApp auto-reply agent that chats in casual Telugu (Tenglish)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.0.0"
+  }
+}
